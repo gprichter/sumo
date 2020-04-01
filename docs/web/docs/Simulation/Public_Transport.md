@@ -78,8 +78,8 @@ following example shows how this can be done (taken from {{SUMO}}*/examples/sumo
 What is defined here is a vehicle named "0" being a "BUS". "BUS" is a
 referenced type declared earlier. The vehicle has an embedded route
 (written by hand in this case) and a list of stop places. Each stop
-place is described by two attributes, "bus_stop" and "duration" where
-"bus_stop" is the name of the bus stop the vehicle shall halt at and
+place is described by two attributes, "busStop" and "duration" where
+"busStop" is the name of the bus stop the vehicle shall halt at and
 "duration" is the time the vehicle shall wait at the bus stop in
 seconds. Please note that the order of bus stops the vehicle shall halt
 at must be correct.
